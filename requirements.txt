@@ -1,0 +1,43 @@
+# A股量化交易回测系统依赖
+
+# 数据源API
+akshare>=1.12.0
+baostock>=0.8.8
+tushare>=1.4.0
+
+# 回测引擎
+backtrader>=1.9.78
+
+# 数据库
+duckdb>=0.9.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web框架
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# AI/LLM集成
+langchain-core>=0.1.0
+pydantic>=2.0.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 科学计算
+scipy>=1.11.0
+
+# 工具库
+requests>=2.31.0
+tqdm>=4.66.0
+python-dateutil>=2.8.0
+sqlalchemy>=2.0.0
+python-dotenv>=1.0.0
+
+# 测试
+pytest>=7.4.0
+
+
